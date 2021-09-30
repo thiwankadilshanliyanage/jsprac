@@ -13,3 +13,10 @@ function subNumbers(num1, num2) {
 }
 var subnum = subNumbers(30, 12);
 console.log(subnum);
+
+//practise
+function birthYear(bornyear) {
+    return 2021 - bornyear;
+}
+var bornIn = birthYear(1998);
+console.log('I am ' + bornIn + ' years old');
