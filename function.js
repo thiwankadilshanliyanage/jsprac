@@ -28,7 +28,7 @@ console.log('I am ' + bornIn + ' years old');
 function retiringYear(firstName, bornyear) {
     var age = birthYear(bornyear);
     var retire = 60 - age;
-    console.log(firstName + 'retiresin' + retire + 'years,in' + (bornyear + age + retire));
+    console.log(firstName + 'retiresin ' + retire + 'years,in ' + (bornyear + age + retire));
 
 }
 //calling
