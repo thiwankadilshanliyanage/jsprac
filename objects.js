@@ -46,3 +46,7 @@ console.log(Nimal.degree.name);
 console.log(Nimal.degree['credits']);
 console.log(Nimal.project[0].proName);
 console.log('Birth year of ' + Nimal.firstName + ' is ' + Nimal.yearOfBirth(2021));
+
+Nimal.job = 'Engineer';
+Nimal.civilStatus = true;
+console.log(Nimal);
