@@ -50,3 +50,12 @@ console.log('Birth year of ' + Nimal.firstName + ' is ' + Nimal.yearOfBirth(2021
 Nimal.job = 'Engineer';
 Nimal.civilStatus = true;
 console.log(Nimal);
+
+// --new object syntax--
+
+var kasun = new Object();
+kasun.firstname = 'kasun';
+kasun.lastname = 'dilshan';
+kasun['age'] = 30;
+
+console.log(kasun);
