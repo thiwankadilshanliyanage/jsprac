@@ -18,6 +18,14 @@ chamal.height = prompt('Add chamal height : ');
 
 kasun.bmi = chamal.bmi = function() {
     this.bmiVal = this.mass / (this.height ** 2);
+    return this.bmiVal;
+}
+if (kasun.bmi() > chamal.bmi()) {
+    alert('kasun bmi is highest BMI');
+} else if (kasun.bmi() < chamal.bmi()) {
+    alert('Chamal bmi is highest BMI');
+} else {
+    alert('BMI Values are equal');
 }
 console.log(kasun);
 console.log(chamal);
