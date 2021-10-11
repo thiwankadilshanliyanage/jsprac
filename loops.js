@@ -25,3 +25,20 @@ var i;
 for (i in person) {
     console.log(person[i]);
 }
+
+//for/of loop
+
+var fullName = "Chamara Perera";
+var j;
+for (j of fullName) {
+    console.log(j);
+}
+
+//while loop
+
+var mark = [22, 45, 67, 69, 50];
+var k = 0;
+while (k < mark.length) {
+    console.log(mark[k]);
+    k++;
+}
