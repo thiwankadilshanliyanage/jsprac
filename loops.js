@@ -42,3 +42,26 @@ while (k < mark.length) {
     console.log(mark[k]);
     k++;
 }
+
+// do-while loop
+
+var i = 10;
+do {
+    console.log(i);
+    i--
+} while (i >= 1);
+
+// continue and break 
+var data = ['saman', 'galle', 75, true, 'chocolate'];
+
+//continue
+for (var i = 0; i < data.length; i++) {
+    if (typeof(data[i]) !== 'string') continue;
+    console.log(data[i]);
+}
+
+// break
+for (var i = 0; i < data.length; i++) {
+    if (typeof(data[i]) !== 'string') break;
+    console.log(data[i]);
+}
